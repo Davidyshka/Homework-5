@@ -1,0 +1,166 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.tabs-wrapper{
+display: flex;
+
+}
+
+.tabs-item{
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 38px;
+	text-align: center;
+	vertical-align: middle;
+
+	max-width: 203px;
+	width: 100%;
+}
+
+.tabs-item__active{
+	border: 1px solid #C6CBCD;
+	border-radius: 5px 5px 0 0px;
+	border-bottom: #ffffff;
+}
+
+.tabs-item__active::after{
+	position: absolute;
+	content: '';
+	display: block;
+	max-width: 203px;
+	width: 100%;
+	height: 1px;
+	background-color: white;
+}
+
+.sol-wrapper{
+	margin: 0 0 100px 0;
+	display: flex;
+	border: 1px solid #C6CBCD;
+}
+
+.sol-main__info{
+	margin: 0 30px 0 100px;
+}
+
+.sol__title{
+	font-size: 30px;
+	font-weight: 700;
+	margin: 40px 0 50px 0;
+}
+
+.sol__subtitle{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	margin: 0 0 27px 0;
+}
+
+.sol__fix-space{
+	display: block;
+	height: 15px;
+}
+
+
+.sol__button{
+	cursor: pointer;
+	color: #ffffff;
+	background-color: #EC7979;
+	font-size: 18px;
+	font-weight: 600;
+	border: none;
+	width: 270px;
+	height: 58px;
+}
+
+.sol__button:active{
+	background-color: #EC7979;
+	box-shadow: inset 0px 0px 10px 1px #AB4949;
+}
+
+.sol__button:hover{
+	background-color: #AB4949 ;
+	transition: all .5s;
+
+}
+
+.sol__img{
+	max-width: 470px;
+	max-height: 500px;
+}
+
+.awesome-wrapper{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.awesome__title{
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px ;
+	font-weight: 400;
+	margin: 0 0 80px 0;
+}
+
+.awesome__title::after{
+	content: '';
+	display: block;
+	background-color:#EC7979 ;
+	height: 1px;
+	width: 170px;
+
+	position: relative;
+	top: 40px;
+	left: 50%;
+	transform:translate(-50%, -50%)
+}
+
+.awesome__subtitle{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #86878B;
+	margin: 0 0 40px 0;
+	line-height: 21px;
+}
+
+.awesome-wrapper__second{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+}
+
+.awesome__item{
+ 	text-align: center;
+}
+
+.awesome__item__title{
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0 0 50px 0;
+	line-height: 33px
+}
+
+.awesome__item__info{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+
+.awesome__item__img{
+ max-width: 100%;
+ max-height: 100%;
+}
