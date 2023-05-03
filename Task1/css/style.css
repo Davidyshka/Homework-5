@@ -332,7 +332,13 @@ margin-bottom: 73px;
 .stylish-main__btn{
 	display: block;
 	max-width: 370px;
+	height: 58px;
 	width: 100%;
 	align-self: center;
 	cursor: pointer;
+  background-color: transparent;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	border: 2px solid #fff;
 }
