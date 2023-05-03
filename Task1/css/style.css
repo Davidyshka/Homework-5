@@ -1,5 +1,34 @@
 body{
 	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.red-underline::after{
+	content: '';
+	display: block;
+	background-color:#EC7979 ;
+	height: 1px;
+	width: 170px;
+
+	position: relative;
+	top: 40px;
+	left: 50%;
+	transform:translate(-50%, -50%)
+}
+
+.white-underline::after{
+	content: '';
+	display: block;
+	background-color:#FFF ;
+	opacity: 0.7;
+	height: 1px;
+	width: 170px;
+
+	position: relative;
+	top: 40px;
+	left: 50%;
+	transform:translate(-50%, -50%)
 }
 
 .container{
@@ -110,18 +139,6 @@ align-items: center;
 	margin: 0 0 80px 0;
 }
 
-.red-underline::after{
-	content: '';
-	display: block;
-	background-color:#EC7979 ;
-	height: 1px;
-	width: 170px;
-
-	position: relative;
-	top: 40px;
-	left: 50%;
-	transform:translate(-50%, -50%)
-}
 
 .awesome__subtitle{
 	font-family: 'Raleway', sans-serif;
@@ -196,7 +213,7 @@ align-items: center;
 	max-width: 370px;
 	width: 100%;
 	color: #fff;
-	cursor: pointer;
+
 
 }
 
@@ -213,6 +230,7 @@ align-items: center;
 	position: relative;
 	transform: translateY(-10px);
 	transition: all .5s;
+	cursor: pointer;
 }
 .pricing-item__title{
 	font-weight: 700;
@@ -225,6 +243,7 @@ align-items: center;
 	align-items: center;
 	justify-content: center;
 	line-height: 33;
+
 }
 
 .pricing-item__price{
@@ -263,4 +282,57 @@ align-items: center;
 	border: 1px solid #F5F5F5 ;
 	height: 100%;
 	line-height: 50px;
+}
+/* Я спешил */
+.stylish-wrapper{
+	background-image: url(../img/city.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.stylish-wrapper::after{
+	content: '';
+	display: block;
+	opacity: .5;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+}
+
+.stylish-main__wrapper{
+	display: flex;
+	flex-direction: column;
+	color: #FFF;
+	text-align: center;
+	z-index: 10;
+	position: relative;
+	height: 442px;
+	
+}
+
+.stylish-main__title{
+	font-size: 36px;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 80px;
+	margin-bottom: 80px;
+}
+
+.stylish-main__subtitle{
+font-size: 18px;	
+font-weight: 400;
+font-family: 'Raleway', sans-serif;
+margin-bottom: 73px;
+}
+
+.stylish-main__btn{
+	display: block;
+	max-width: 370px;
+	width: 100%;
+	align-self: center;
+	cursor: pointer;
 }
