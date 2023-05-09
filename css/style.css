@@ -21,7 +21,6 @@ body {
   content: "";
   display: block;
   background-color: #fff;
-  opacity: 0.7;
   height: 1px;
   width: 170px;
 
@@ -271,7 +270,7 @@ body {
   height: 100%;
   line-height: 50px;
 }
-/* Я спешил */
+
 .stylish-wrapper {
   background-image: url(../img/city.jpg);
   width: 100%;
@@ -313,7 +312,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .stylish-main__btn {
